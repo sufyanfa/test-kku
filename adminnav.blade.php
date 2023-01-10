@@ -2,7 +2,7 @@
     <div class="relative container px-4 max-w-5xl mx-auto">
         <div class="flex items-center justify-between relative">
             <a class="inline-block" href="/store/{{ auth()->user()->store->url }}">
-              <img class="bg-white rounded-lg border border-thir" src="/images/logos/{{ auth()->user()->store->logo }}" alt="store" width="40">
+              <img class="bg-white rounded-lg" src="/images/logos/{{ auth()->user()->store->logo }}" alt="store" width="40">
             </a>
             <div class="block mr-auto">
             <a href="/dashboard" class="inline-flex justify-center rounded-lg text-sm font-medium py-2.5 px-4 bg-white text-gray-800 hover:bg-gray-400 -my-2.5 mr-4">
