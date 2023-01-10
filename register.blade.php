@@ -21,7 +21,7 @@
                 <div>
                   <label for="name" class="block text-sm mb-2">الأسم</label>
                   <div class="relative">
-                    <input type="text" id="name" name="name" class="py-3 px-4 block w-full border-gray-200 @error('name') border-red-200 px-8 @enderror rounded-md text-sm focus:border-thir focus:ring-thir" value="{{ old('name') }}" required autocomplete="name" placeholder="أسم المتجر">
+                    <input type="text" id="name" name="name" class="py-3 px-4 block w-full border-gray-200 @error('name') border-red-200 px-8 @enderror rounded-md text-sm focus:border-thir focus:ring-thir" value="{{ old('name') }}" required autocomplete="name" placeholder="أسم المستخدم">
                     @error('name')
                     <div class="absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
                       <svg class="h-5 w-5 text-red-500" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
